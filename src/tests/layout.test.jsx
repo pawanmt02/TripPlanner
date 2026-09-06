@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import { MemoryRouter, useLocation } from 'react-router-dom';
+import { MemoryRouter } from 'react-router-dom';
 import { describe, it, expect } from 'vitest';
 import Header, { Header as HeaderNamed } from '../components/layout/Header';
 import Footer, { Footer as FooterNamed } from '../components/layout/Footer';

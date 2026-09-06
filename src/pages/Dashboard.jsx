@@ -2,7 +2,6 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import destinations from '../data/destinations.json';
 import DestinationCard from '../components/destinations/DestinationCard';
-import Badge from '../components/ui/Badge';
 import Button from '../components/ui/Button';
 import { useTripStore } from '../store/tripStore';
 

@@ -8,7 +8,7 @@ import {
   useSensors,
   DragOverlay,
 } from '@dnd-kit/core';
-import { arrayMove, sortableKeyboardCoordinates } from '@dnd-kit/sortable';
+import { sortableKeyboardCoordinates } from '@dnd-kit/sortable';
 import useTripStore from '../../store/tripStore';
 import DayColumn from './DayColumn';
 import TimeSlot from './TimeSlot';

@@ -3,7 +3,7 @@ import { useSortable } from '@dnd-kit/sortable';
 import { CSS } from '@dnd-kit/utilities';
 import { formatCurrency } from '../../utils/budgetCalculator';
 
-export const TimeSlot = memo(({ activity, onRemove, onNotesChange }) => {
+export const TimeSlot = memo(({ activity, onRemove }) => {
   const { attributes, listeners, setNodeRef, transform, transition } = useSortable({
     id: activity.id,
   });

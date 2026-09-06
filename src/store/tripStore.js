@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { calculateCategoryBreakdown } from '../utils/budgetCalculator';
 
-const useTripStore = create((set, get) => ({
+const useTripStore = create((set) => ({
   // --- Destination State ---
   selectedDestination: null,
   filters: {
