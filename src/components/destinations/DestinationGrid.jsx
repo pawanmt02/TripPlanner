@@ -4,6 +4,9 @@ import DestinationCard from './DestinationCard';
 export const DestinationGrid = memo(function DestinationGrid({
   destinations = [],
   onSelect,
+  onToggleFavorite,
+  onViewDetails,
+  favoriteDestinations = [],
   selectedId,
   onReset,
   className = '',
@@ -47,7 +50,10 @@ export const DestinationGrid = memo(function DestinationGrid({
         <DestinationCard
           key={dest.id}
           destination={dest}
-          onClick={() => onSelect?.(dest)}
+          onClick={onSelect ? () => onSelect(dest) : undefined}
+          onToggleFavorite={onToggleFavorite}
+          onViewDetails={onViewDetails}
+          isFavorite={favoriteDestinations.includes(dest.id)}
           isSelected={dest.id === selectedId}
         />
       ))}

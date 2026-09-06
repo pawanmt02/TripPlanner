@@ -4,7 +4,15 @@ import formatCurrency from '../../utils/budgetCalculator';
 
 export const DestinationCard = memo(
   forwardRef(function DestinationCard(
-    { destination, onClick, isSelected = false, className = '' },
+    {
+      destination,
+      onClick,
+      onToggleFavorite,
+      onViewDetails,
+      isFavorite = false,
+      isSelected = false,
+      className = '',
+    },
     ref
   ) {
     if (!destination) return null;
@@ -16,6 +24,16 @@ export const DestinationCard = memo(
         e.preventDefault();
         onClick?.(e);
       }
+    };
+
+    const handleSaveClick = (e) => {
+      e.stopPropagation();
+      onToggleFavorite?.(destination.id);
+    };
+
+    const handleDetailsClick = (e) => {
+      e.stopPropagation();
+      onViewDetails?.(destination);
     };
 
     return (
@@ -55,6 +73,34 @@ export const DestinationCard = memo(
               →
             </span>
           </div>
+
+          {(onToggleFavorite || onViewDetails) && (
+            <div className="mt-4 flex items-center gap-2">
+              {onToggleFavorite && (
+                <button
+                  type="button"
+                  onClick={handleSaveClick}
+                  aria-label={isFavorite ? `Saved ${name}` : `Save ${name}`}
+                  className={`flex-1 rounded-lg px-3 py-2 text-sm font-medium transition ${
+                    isFavorite
+                      ? 'bg-primary text-white'
+                      : 'border border-gray-200 bg-white text-gray-700 hover:bg-gray-50'
+                  }`}
+                >
+                  {isFavorite ? 'Saved' : 'Save'}
+                </button>
+              )}
+              {onViewDetails && (
+                <button
+                  type="button"
+                  onClick={handleDetailsClick}
+                  className="rounded-lg border border-gray-200 bg-white px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+                >
+                  Details
+                </button>
+              )}
+            </div>
+          )}
         </div>
       </article>
     );

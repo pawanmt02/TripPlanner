@@ -8,7 +8,10 @@ const useTripStore = create((set, get) => ({
     vibe: 'all',
     budgetRange: [0, 6000],
     searchQuery: '',
+    sortBy: 'recommended',
   },
+
+  favoriteDestinations: [],
 
   // --- Itinerary State ---
   itinerary: {
@@ -37,6 +40,13 @@ const useTripStore = create((set, get) => ({
   updateFilters: (newFilters) =>
     set((state) => ({
       filters: { ...state.filters, ...newFilters },
+    })),
+
+  toggleFavorite: (destinationId) =>
+    set((state) => ({
+      favoriteDestinations: state.favoriteDestinations.includes(destinationId)
+        ? state.favoriteDestinations.filter((id) => id !== destinationId)
+        : [...state.favoriteDestinations, destinationId],
     })),
 
   // --- Actions: Itinerary ---
