@@ -1,0 +1,206 @@
+[
+  {
+    "id": "dest-1",
+    "name": "Manali",
+    "description": "A breathtaking hill station nestled in the Himalayas, perfect for adventure seekers and nature lovers.",
+    "vibe": "Adventure",
+    "image": "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=600&q=80&fm=webp",
+    "coordinates": [32.2396, 77.1887],
+    "budgetPerDay": 3500,
+    "activities": [
+      { "id": "act-1-1", "name": "River Rafting at Beas", "cost": 1200, "duration": "3 hours", "category": "Activities", "icon": "🏄" },
+      { "id": "act-1-2", "name": "Solang Valley Paragliding", "cost": 2500, "duration": "1 hour", "category": "Activities", "icon": "🪂" },
+      { "id": "act-1-3", "name": "Old Manali Cafe Hopping", "cost": 800, "duration": "2 hours", "category": "Food & Dining", "icon": "☕" },
+      { "id": "act-1-4", "name": "Hadimba Temple Visit", "cost": 0, "duration": "1.5 hours", "category": "Activities", "icon": "🛕" },
+      { "id": "act-1-5", "name": "Mountain Lodge Stay", "cost": 2500, "duration": "Per Night", "category": "Accommodation", "icon": "🏨" },
+      { "id": "act-1-6", "name": "Local Bus Transfer", "cost": 500, "duration": "Varies", "category": "Transport", "icon": "🚌" }
+    ]
+  },
+  {
+    "id": "dest-2",
+    "name": "Goa",
+    "description": "Sun-kissed beaches, vibrant nightlife, and Portuguese heritage make Goa the ultimate beach getaway.",
+    "vibe": "Beach",
+    "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=600&q=80&fm=webp",
+    "coordinates": [15.2993, 74.124],
+    "budgetPerDay": 4000,
+    "activities": [
+      { "id": "act-2-1", "name": "Beach Shack Seafood Lunch", "cost": 1500, "duration": "2 hours", "category": "Food & Dining", "icon": "🦐" },
+      { "id": "act-2-2", "name": "Dudhsagar Falls Trip", "cost": 2000, "duration": "Full Day", "category": "Activities", "icon": "💧" },
+      { "id": "act-2-3", "name": "Old Goa Church Tour", "cost": 300, "duration": "2 hours", "category": "Activities", "icon": "⛪" },
+      { "id": "act-2-4", "name": "Scooter Rental", "cost": 400, "duration": "Per Day", "category": "Transport", "icon": "🛵" },
+      { "id": "act-2-5", "name": "Beach Hut Stay", "cost": 3000, "duration": "Per Night", "category": "Accommodation", "icon": "🏖️" },
+      { "id": "act-2-6", "name": "Sunset Cruise", "cost": 1800, "duration": "2 hours", "category": "Activities", "icon": "⛵" }
+    ]
+  },
+  {
+    "id": "dest-3",
+    "name": "Jaipur",
+    "description": "The Pink City offers a royal blend of grand palaces, vibrant bazaars, and rich Rajasthani culture.",
+    "vibe": "Heritage",
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=600&q=80&fm=webp",
+    "coordinates": [26.9124, 75.7873],
+    "budgetPerDay": 3000,
+    "activities": [
+      { "id": "act-3-1", "name": "Amber Fort Exploration", "cost": 500, "duration": "3 hours", "category": "Activities", "icon": "🏰" },
+      { "id": "act-3-2", "name": "Rajasthani Thali Dinner", "cost": 600, "duration": "1.5 hours", "category": "Food & Dining", "icon": "🍛" },
+      { "id": "act-3-3", "name": "Johari Bazaar Shopping", "cost": 2000, "duration": "2 hours", "category": "Activities", "icon": "💎" },
+      { "id": "act-3-4", "name": "Heritage Haveli Stay", "cost": 2800, "duration": "Per Night", "category": "Accommodation", "icon": "🏨" },
+      { "id": "act-3-5", "name": "Auto Rickshaw Tour", "cost": 800, "duration": "Half Day", "category": "Transport", "icon": "🛺" },
+      { "id": "act-3-6", "name": "Hawa Mahal Visit", "cost": 200, "duration": "1 hour", "category": "Activities", "icon": "🏛️" }
+    ]
+  },
+  {
+    "id": "dest-4",
+    "name": "Rishikesh",
+    "description": "The yoga capital of the world, where the Ganges meets the mountains for spiritual and adventure experiences.",
+    "vibe": "Adventure",
+    "image": "https://images.unsplash.com/photo-1600100397608-e1b7e2f1318e?w=600&q=80&fm=webp",
+    "coordinates": [30.0869, 78.2676],
+    "budgetPerDay": 2500,
+    "activities": [
+      { "id": "act-4-1", "name": "Bungee Jumping", "cost": 3500, "duration": "1 hour", "category": "Activities", "icon": "🤸" },
+      { "id": "act-4-2", "name": "Ganga Aarti at Triveni", "cost": 0, "duration": "1.5 hours", "category": "Activities", "icon": "🪔" },
+      { "id": "act-4-3", "name": "White Water Rafting", "cost": 1500, "duration": "3 hours", "category": "Activities", "icon": "🚣" },
+      { "id": "act-4-4", "name": "Ashram Stay", "cost": 1200, "duration": "Per Night", "category": "Accommodation", "icon": "🧘" },
+      { "id": "act-4-5", "name": "Organic Cafe Breakfast", "cost": 400, "duration": "1 hour", "category": "Food & Dining", "icon": "🥗" },
+      { "id": "act-4-6", "name": "Shared Jeep Transfer", "cost": 600, "duration": "Varies", "category": "Transport", "icon": "🚙" }
+    ]
+  },
+  {
+    "id": "dest-5",
+    "name": "Munnar",
+    "description": "Rolling tea plantations, misty mountains, and cool climate make Munnar a serene nature retreat.",
+    "vibe": "Nature",
+    "image": "https://images.unsplash.com/photo-1611024847487-e15254b3154d?w=600&q=80&fm=webp",
+    "coordinates": [10.0889, 77.0595],
+    "budgetPerDay": 3200,
+    "activities": [
+      { "id": "act-5-1", "name": "Tea Plantation Walk", "cost": 300, "duration": "2 hours", "category": "Activities", "icon": "🍃" },
+      { "id": "act-5-2", "name": "Eravikulam National Park", "cost": 500, "duration": "3 hours", "category": "Activities", "icon": "🦌" },
+      { "id": "act-5-3", "name": "Kerala Meals Lunch", "cost": 500, "duration": "1 hour", "category": "Food & Dining", "icon": "🍌" },
+      { "id": "act-5-4", "name": "Hillside Resort Stay", "cost": 3500, "duration": "Per Night", "category": "Accommodation", "icon": "🏡" },
+      { "id": "act-5-5", "name": "Private Cab for Sightseeing", "cost": 1800, "duration": "Full Day", "category": "Transport", "icon": "🚗" },
+      { "id": "act-5-6", "name": "Mattupetty Dam Visit", "cost": 100, "duration": "1.5 hours", "category": "Activities", "icon": "🌊" }
+    ]
+  },
+  {
+    "id": "dest-6",
+    "name": "Udaipur",
+    "description": "The City of Lakes, known for its stunning palaces, serene lakeside views, and romantic charm.",
+    "vibe": "Heritage",
+    "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=600&q=80&fm=webp",
+    "coordinates": [24.5854, 73.7125],
+    "budgetPerDay": 3500,
+    "activities": [
+      { "id": "act-6-1", "name": "Lake Pichola Boat Ride", "cost": 800, "duration": "1.5 hours", "category": "Activities", "icon": "⛵" },
+      { "id": "act-6-2", "name": "City Palace Museum", "cost": 300, "duration": "2 hours", "category": "Activities", "icon": "🏛️" },
+      { "id": "act-6-3", "name": "Rooftop Lakeside Dinner", "cost": 1200, "duration": "2 hours", "category": "Food & Dining", "icon": "🌅" },
+      { "id": "act-6-4", "name": "Lakeside Hotel Stay", "cost": 4000, "duration": "Per Night", "category": "Accommodation", "icon": "🏨" },
+      { "id": "act-6-5", "name": "Auto Rickshaw Day Pass", "cost": 500, "duration": "Full Day", "category": "Transport", "icon": "🛺" },
+      { "id": "act-6-6", "name": "Sajjangarh Sunset Trek", "cost": 200, "duration": "2 hours", "category": "Activities", "icon": "🌄" }
+    ]
+  },
+  {
+    "id": "dest-7",
+    "name": "Coorg",
+    "description": "The Scotland of India, with lush coffee plantations, misty hills, and waterfalls in Karnataka.",
+    "vibe": "Nature",
+    "image": "https://images.unsplash.com/photo-1596895111956-bf1cf0599ce5?w=600&q=80&fm=webp",
+    "coordinates": [12.3375, 75.8069],
+    "budgetPerDay": 2800,
+    "activities": [
+      { "id": "act-7-1", "name": "Coffee Plantation Tour", "cost": 400, "duration": "2 hours", "category": "Activities", "icon": "☕" },
+      { "id": "act-7-2", "name": "Abbey Falls Hike", "cost": 100, "duration": "2 hours", "category": "Activities", "icon": "🏞️" },
+      { "id": "act-7-3", "name": "Coorgi Pork Curry Meal", "cost": 600, "duration": "1 hour", "category": "Food & Dining", "icon": "🍖" },
+      { "id": "act-7-4", "name": "Homestay in Plantation", "cost": 2500, "duration": "Per Night", "category": "Accommodation", "icon": "🏡" },
+      { "id": "act-7-5", "name": "Private Car Rental", "cost": 1500, "duration": "Full Day", "category": "Transport", "icon": "🚗" },
+      { "id": "act-7-6", "name": "Namdroling Monastery", "cost": 0, "duration": "1.5 hours", "category": "Activities", "icon": "🙏" }
+    ]
+  },
+  {
+    "id": "dest-8",
+    "name": "Pondicherry",
+    "description": "A charming coastal town with French colonial architecture, serene beaches, and Auroville spirituality.",
+    "vibe": "Beach",
+    "image": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600&q=80&fm=webp",
+    "coordinates": [11.9416, 79.8083],
+    "budgetPerDay": 2800,
+    "activities": [
+      { "id": "act-8-1", "name": "French Quarter Walk", "cost": 0, "duration": "2 hours", "category": "Activities", "icon": "🚶" },
+      { "id": "act-8-2", "name": "Auroville Visit", "cost": 200, "duration": "3 hours", "category": "Activities", "icon": "🌐" },
+      { "id": "act-8-3", "name": "French Bakery Brunch", "cost": 700, "duration": "1.5 hours", "category": "Food & Dining", "icon": "🥐" },
+      { "id": "act-8-4", "name": "Heritage Villa Stay", "cost": 3200, "duration": "Per Night", "category": "Accommodation", "icon": "🏘️" },
+      { "id": "act-8-5", "name": "Bicycle Rental", "cost": 200, "duration": "Per Day", "category": "Transport", "icon": "🚲" },
+      { "id": "act-8-6", "name": "Scuba Diving Intro", "cost": 3500, "duration": "2 hours", "category": "Activities", "icon": "🤿" }
+    ]
+  },
+  {
+    "id": "dest-9",
+    "name": "Shimla",
+    "description": "The Queen of Hills with colonial charm, toy train rides, and panoramic Himalayan views.",
+    "vibe": "Nature",
+    "image": "https://images.unsplash.com/photo-1597074866923-dc0589150458?w=600&q=80&fm=webp",
+    "coordinates": [31.1048, 77.1734],
+    "budgetPerDay": 3000,
+    "activities": [
+      { "id": "act-9-1", "name": "Toy Train Ride", "cost": 400, "duration": "5 hours", "category": "Activities", "icon": "🚂" },
+      { "id": "act-9-2", "name": "Mall Road Stroll", "cost": 500, "duration": "2 hours", "category": "Activities", "icon": "🛍️" },
+      { "id": "act-9-3", "name": "Himachali Dhaam Feast", "cost": 600, "duration": "1.5 hours", "category": "Food & Dining", "icon": "🍲" },
+      { "id": "act-9-4", "name": "Colonial Hotel Stay", "cost": 3500, "duration": "Per Night", "category": "Accommodation", "icon": "🏨" },
+      { "id": "act-9-5", "name": "Local Taxi Transfer", "cost": 700, "duration": "Varies", "category": "Transport", "icon": "🚕" },
+      { "id": "act-9-6", "name": "Jakhoo Temple Trek", "cost": 0, "duration": "2 hours", "category": "Activities", "icon": "🐒" }
+    ]
+  },
+  {
+    "id": "dest-10",
+    "name": "Bangalore",
+    "description": "India's Silicon Valley offers craft breweries, vibrant nightlife, parks, and a thriving food scene.",
+    "vibe": "City",
+    "image": "https://images.unsplash.com/photo-1596176530529-78163a4f7af2?w=600&q=80&fm=webp",
+    "coordinates": [12.9716, 77.5946],
+    "budgetPerDay": 3500,
+    "activities": [
+      { "id": "act-10-1", "name": "Craft Brewery Tour", "cost": 1500, "duration": "3 hours", "category": "Activities", "icon": "🍺" },
+      { "id": "act-10-2", "name": "Cubbon Park Morning Walk", "cost": 0, "duration": "1.5 hours", "category": "Activities", "icon": "🌳" },
+      { "id": "act-10-3", "name": "Toit Gastropub Dinner", "cost": 1800, "duration": "2 hours", "category": "Food & Dining", "icon": "🍕" },
+      { "id": "act-10-4", "name": "Boutique Hotel Stay", "cost": 4500, "duration": "Per Night", "category": "Accommodation", "icon": "🏨" },
+      { "id": "act-10-5", "name": "Metro & Uber Rides", "cost": 600, "duration": "Per Day", "category": "Transport", "icon": "🚇" },
+      { "id": "act-10-6", "name": "Lalbagh Botanical Garden", "cost": 100, "duration": "2 hours", "category": "Activities", "icon": "🌺" }
+    ]
+  },
+  {
+    "id": "dest-11",
+    "name": "Ladakh",
+    "description": "The land of high passes with dramatic landscapes, ancient monasteries, and crystal-clear lakes.",
+    "vibe": "Adventure",
+    "image": "https://images.unsplash.com/photo-1626015365107-aa4fe52015bf?w=600&q=80&fm=webp",
+    "coordinates": [34.1526, 77.5771],
+    "budgetPerDay": 5000,
+    "activities": [
+      { "id": "act-11-1", "name": "Pangong Lake Excursion", "cost": 3000, "duration": "Full Day", "category": "Activities", "icon": "🏔️" },
+      { "id": "act-11-2", "name": "Thiksey Monastery Visit", "cost": 100, "duration": "2 hours", "category": "Activities", "icon": "🏯" },
+      { "id": "act-11-3", "name": "Ladakhi Thukpa & Momos", "cost": 400, "duration": "1 hour", "category": "Food & Dining", "icon": "🥟" },
+      { "id": "act-11-4", "name": "Guesthouse Stay", "cost": 2000, "duration": "Per Night", "category": "Accommodation", "icon": "🏠" },
+      { "id": "act-11-5", "name": "Royal Enfield Rental", "cost": 1500, "duration": "Per Day", "category": "Transport", "icon": "🏍️" },
+      { "id": "act-11-6", "name": "Khardung La Pass Ride", "cost": 500, "duration": "Half Day", "category": "Activities", "icon": "⛰️" }
+    ]
+  },
+  {
+    "id": "dest-12",
+    "name": "Mumbai",
+    "description": "The city that never sleeps — Bollywood glamour, street food paradise, and iconic heritage landmarks.",
+    "vibe": "City",
+    "image": "https://images.unsplash.com/photo-1570168007204-dfb528c6958f?w=600&q=80&fm=webp",
+    "coordinates": [19.076, 72.8777],
+    "budgetPerDay": 4500,
+    "activities": [
+      { "id": "act-12-1", "name": "Gateway of India Visit", "cost": 0, "duration": "1 hour", "category": "Activities", "icon": "🇮🇳" },
+      { "id": "act-12-2", "name": "Street Food Trail", "cost": 500, "duration": "3 hours", "category": "Food & Dining", "icon": "🌮" },
+      { "id": "act-12-3", "name": "Marine Drive Sunset Walk", "cost": 0, "duration": "1.5 hours", "category": "Activities", "icon": "🌇" },
+      { "id": "act-12-4", "name": "Elephanta Caves Ferry", "cost": 600, "duration": "Half Day", "category": "Activities", "icon": "🗿" },
+      { "id": "act-12-5", "name": "Sea-View Hotel Stay", "cost": 6000, "duration": "Per Night", "category": "Accommodation", "icon": "🏨" },
+      { "id": "act-12-6", "name": "Local Train Day Pass", "cost": 100, "duration": "Per Day", "category": "Transport", "icon": "🚆" }
+    ]
+  }
+]
